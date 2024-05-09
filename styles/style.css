@@ -9,15 +9,23 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* background-color: blueviolet; */
 }
 img{
     width: 115px;
     height: 12px;
+    /* background-color: blue; */
 }
-li{
+li {
     display: inline;
-    padding: 20px;
+    /* padding: 10px 20px; */
+}
+.li-first-nav{
+    padding: 10px 20px;
 }
 a{
     text-decoration: none;
@@ -36,18 +44,38 @@ h1{
     font-size: 40px;
 }
 
-#buttons{
+/* #buttons{
     position: relative;
     top: 350px;
+} */
+#buttons{
+    margin-top: 340px;
+    /* background-color: blueviolet; */
 }
 button{
     margin: 10px;
-    padding: 12px 74px;
+    padding: 12px 94px;
     border: none;
     font-weight: bold;
+    font-size: 15px;
     border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 500ms;
 }
 #btn-black{
     color: white;
     background-color: rgb(56, 56, 56);
+}
+.li-show-nav{
+    display: none;
+}
+.icons{
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+    /* margin-right: 5px; */
+    margin-top: 5px;
 }

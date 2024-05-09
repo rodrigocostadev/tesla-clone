@@ -1,7 +1,27 @@
 @media screen and (max-width: 748px){
     body{
         height: 600px;
-        background-position-x: -300px;
+        /* background-position-x: -300px; */
+        background-position: center;
+    }
 
+    #title{
+        margin-top: 60px;
+    }
+
+    #first-nav, .li-second-nav{
+        display: none;
+    }
+    .li-show-nav{
+        display: inline;
+        background-color: rgba(0, 0, 0, 0.121);
+        border-radius: 5px;
+    }
+    #buttons{
+        position: relative;
+        bottom: 80px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 }
