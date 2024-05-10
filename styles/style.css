@@ -1,8 +1,8 @@
 body{
-    background-image: url(../assets/background.jpg);
-    background-size: cover;
+    /* background-image: url(../assets/background.jpg);
+    background-size: cover; */
     font-family: sans-serif;
-    max-width: 1400px;
+    /* max-width: 1400px; */
     margin: 0 auto;
 }
 header{
@@ -10,9 +10,10 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 15px;
+    /* margin-top: 10px; */
+    margin-left: 15px;
+    margin-right: 15px;
     /* background-color: blueviolet; */
 }
 img{
@@ -31,26 +32,120 @@ a{
     text-decoration: none;
     color: black;
 }
+h1{
+    font-size: 40px;
+}
+h3{
+    font-size: 22px;
+    line-height: 6px;
+    font-weight: lighter;
+}
+p{
+    font-size: 13px;
+    line-height: 6px;
+}
 main{
     /* background-color: red; */
     text-align: center;
 }
-#title{
+section{
+    position: relative;
+    text-align: center;
+    height: 100vh;
+    width: 105%;
+}
+#model-Y{
+    margin-top: 0;
+    /* background-image: url(../assets/background.jpg); */
+    background-image: url(../assets/imagens2/Homepage-Model-Y-Desktop-Global.avif);
+    background-position-y: -100px;
+    background-size: cover;
+    max-width: 100%;
+}
+#model-3{
+    margin-top: 0;
+    background-image: url(../assets/imagens2/Homepage-Model-3-Desktop-LHD-v2.avif);
+    background-position-y: 850px;
+    background-size: cover;
+    max-width: 100%;
+}
+#model-x{
+    margin-top: 0;
+    background-image: url(../assets/imagens2/Homepage-Model-X-Desktop.avif);
+    background-position-y: 820px;
+    background-size: cover;
+    max-width: 100%;
+}
+#model-s{
+    margin-top: 0;
+    background-image: url(../assets/imagens2/Homepage-Model-S-Desktop-LHD-6.22.avif);
+    background-position-y: 820px;
+    background-size: cover;
+    max-width: 100%;
+}
+#cyber-truck{
+    margin-top: 0;
+    background-image: url(../assets/imagens2/Homepage-Cybertruck-Desktop.avif);
+    /* background: linear-gradient(to bottom, transparent 90%, black ), url(../assets/imagens2/Homepage-Cybertruck-Desktop.avif); */
+    /* background: linear-gradient(rgba(0, 0, 0, 0), rgb(0,0,0)); */
+    /* background-position-y: 820px; */
+    background-position-y: -120px;
+    background-size: cover;
+    max-width: 100%;
+}
+#solar-panels{
+    margin-top: 0;
+    background-image: url(../assets/imagens2/Homepage-SolarPanels-01-Desktop.avif);
+    background-position-y: 820px;
+    background-size: cover;
+    max-width: 100%;
+}
+#solar-roof{
+    margin-top: 0;
+    background-image: url(../assets/imagens2/Homepage-SolarRoof-Desktop-Global.avif);
+    background-position-y: 820px;
+    background-size: cover;
+    max-width: 100%;
+}
+#powerwall{
+    margin-top: 0;
+    background-image: url(../assets/imagens2/Homepage-Powerwall-01-Desktop.avif);
+    background-position-y: 820px;
+    background-size: cover;
+    max-width: 100%;
+}
+#accessories{
+    margin-top: 0;
+    background-image: url(../assets/imagens2/Homepage-Accessories-Desktop-NA-APAC.avif);
+    background-position-y: 820px;
+    background-size: cover;
+    max-width: 100%;
+}
+.title-model-y{
     margin-top: 80px;
     line-height: 10px;
 }
+.title{
+    line-height: 10px;
+    padding: 110px;
+}
 
-h1{
-    font-size: 40px;
+.color-white{
+    color: white;
+}
+.p-solar-panel{
+    font-size: 16px;
 }
 
 /* #buttons{
     position: relative;
     top: 350px;
 } */
-#buttons{
+.buttons-model-y{
     margin-top: 340px;
-    /* background-color: blueviolet; */
+}
+.buttons{
+    margin-top: 190px;
 }
 button{
     margin: 10px;
@@ -65,9 +160,9 @@ button:hover{
     scale: 1.1;
     transition: 500ms;
 }
-#btn-black{
+.btn-black{
     color: white;
-    background-color: rgb(56, 56, 56);
+    background-color: rgba(56, 56, 56, 0.668);
 }
 .li-show-nav{
     display: none;
