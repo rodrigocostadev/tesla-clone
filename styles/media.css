@@ -1,3 +1,9 @@
+@media screen and (max-width: 1430px){
+    #cyber-truck{
+        background-size: 190vh;
+        background-position: center;
+    }
+}
 @media screen and (max-width: 1360px){
     #model-Y{
         background-size: 180vh;
@@ -16,7 +22,7 @@
         background-position: center;
     }
     #cyber-truck{
-        background-size: 180vh;
+        background-size: 160vh;
         background-position: center;
     }
     #solar-panels{
@@ -66,14 +72,25 @@
     }
     .buttons{
         position: relative;
-        bottom: 80px;
+        /* bottom: 80px; */
+        top: 80px;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
     .buttons-model-y{
         position: relative;
-        bottom: 80px;
+        /* bottom: 80px; */
+        top: 80px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .buttons-cyber-truck{
+        margin-top: 400px;
+        position: relative;
+        /* bottom: 80px; */
+        top: 80px;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -101,6 +118,7 @@
     }
     #powerwall{
         background-size: 180vh;
+        background-position-x: -200px;
     }
     #accessories{
         background-size: 180vh;
@@ -134,15 +152,17 @@
         background-size: 160vh;
     }
     #solar-panels{
-        background-size: 160vh;
+        background-size: 180vh;
+        background-position-x: -50px;
         /* background-position-y: -50px; */
     }
     #solar-roof{
         background-size: 180vh;
     }
     #powerwall{
-        background-size: 180vh;
-        background-position-x: -670px;
+        background-size: 160vh;
+        background-position-x: -340px;
+        /* background-position-x: -670px; */
     }
     #accessories{
         background-size: 180vh;
