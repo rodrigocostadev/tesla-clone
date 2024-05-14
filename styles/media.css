@@ -1,12 +1,59 @@
-@media screen and (max-width: 748px){
-    body{
-        height: 600px;
+@media screen and (max-width: 1360px){
+    #model-Y{
+        background-size: 180vh;
+        background-position: center;
+    }
+    #model-3{
+        background-size: 180vh;
+        background-position: center;
+    }
+    #model-x{
+        background-size: 180vh;
+        background-position: center;
+    }
+    #model-s{
+        background-size: 180vh;
+        background-position: center;
+    }
+    #cyber-truck{
+        background-size: 180vh;
+        background-position: center;
+    }
+    #solar-panels{
+        background-size: 180vh;
+        background-position: center;
+    }
+    #solar-roof{
+        background-size: 180vh;
+        background-position: center;
+    }
+    #powerwall{
+        background-size: 180vh;
+        background-position: center;
+    }
+    #accessories{
+        background-size: 180vh;
+        background-position: center;
+    }
+}
+/* @media screen and (max-width: 748px){ */
+    @media screen and (max-width: 790px){
+    /* main{
+        height: 100vh;
+        background-position: center;
+    } */
+    section{
+        /* height: 600px; */
+        height: 100vh;
         /* background-position-x: -300px; */
         background-position: center;
     }
 
-    .title{
+    /* .title{
         margin-top: 60px;
+    } */
+    button{
+        margin-bottom: 0px;
     }
 
     #first-nav, .li-second-nav{
@@ -23,5 +70,81 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+    .buttons-model-y{
+        position: relative;
+        bottom: 80px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #model-Y{
+        background-size: 180vh;
+    }
+    #model-3{
+        background-size: 160vh;
+    }
+    #model-x{
+        background-size: 160vh;
+    }
+    #model-s{
+        background-size: 160vh;
+    }
+    #cyber-truck{
+        background-size: 180vh;
+    }
+    #solar-panels{
+        background-size: 180vh;
+    }
+    #solar-roof{
+        background-size: 180vh;
+    }
+    #powerwall{
+        background-size: 180vh;
+    }
+    #accessories{
+        background-size: 180vh;
+    }
+}
+
+@media screen and (max-width: 690px){
+    p{
+        line-height: 15px;
+    }
+    h3{
+        line-height: 15px;
+    }
+    .solar-title{
+        font-size: 40px;
+        line-height: 35px;
+    }
+    #model-Y{
+        background-position-x: -430px;
+    }
+    #model-3{
+        background-size: 160vh;
+    }
+    /* #model-x{
+        background-position-x: -620px;
+    } */
+    #model-s{
+        background-position-x: -370px;
+    }
+    #cyber-truck{
+        background-size: 160vh;
+    }
+    #solar-panels{
+        background-size: 160vh;
+        /* background-position-y: -50px; */
+    }
+    #solar-roof{
+        background-size: 180vh;
+    }
+    #powerwall{
+        background-size: 180vh;
+        background-position-x: -670px;
+    }
+    #accessories{
+        background-size: 180vh;
     }
 }

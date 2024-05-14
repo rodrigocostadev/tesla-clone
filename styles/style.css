@@ -51,7 +51,7 @@ main{
 section{
     position: relative;
     text-align: center;
-    height: 100vh;
+    /* height: 100vh; */
     width: 105%;
 }
 #model-Y{
@@ -61,6 +61,7 @@ section{
     background-position-y: -100px;
     background-size: cover;
     max-width: 100%;
+    /* height: 100%; */
 }
 #model-3{
     margin-top: 0;
@@ -149,6 +150,7 @@ section{
 }
 button{
     margin: 10px;
+    margin-bottom: 100px;
     padding: 12px 94px;
     border: none;
     font-weight: bold;
