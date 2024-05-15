@@ -71,26 +71,28 @@
         border-radius: 5px;
     }
     .buttons{
+        margin-top: 140px;
         position: relative;
         /* bottom: 80px; */
-        top: 80px;
+        /* top: 80px; */
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
     .buttons-model-y{
+        margin-top: 280px;
         position: relative;
         /* bottom: 80px; */
-        top: 80px;
+        /* top: 40px; */
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
     .buttons-cyber-truck{
-        margin-top: 400px;
+        margin-top: 260px;
         position: relative;
         /* bottom: 80px; */
-        top: 80px;
+        /* top: 80px; */
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -146,7 +148,8 @@
         background-position-x: -620px;
     } */
     #model-s{
-        background-position-x: -370px;
+        /* background-position-x: -370px; */
+        background-position-x: -290px;
     }
     #cyber-truck{
         background-size: 160vh;
@@ -158,10 +161,12 @@
     }
     #solar-roof{
         background-size: 180vh;
+        background-position-y: 50px;
     }
     #powerwall{
-        background-size: 160vh;
-        background-position-x: -340px;
+        background-size: 180vh;
+        background-position-x: -265px;
+        /* background-position-y: -50px; */
         /* background-position-x: -670px; */
     }
     #accessories{
