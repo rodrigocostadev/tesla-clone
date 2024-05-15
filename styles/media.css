@@ -149,7 +149,7 @@
     } */
     #model-s{
         /* background-position-x: -370px; */
-        background-position-x: -290px;
+        background-position-x: -310px;
     }
     #cyber-truck{
         background-size: 160vh;
@@ -171,5 +171,15 @@
     }
     #accessories{
         background-size: 180vh;
+    }
+
+    .buttons{
+        margin-top: 170px;
+    }
+    .buttons-model-y{
+        margin-top: 310px;
+    }
+    .buttons-cyber-truck{
+        margin-top: 290px;
     }
 }
